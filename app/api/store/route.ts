@@ -24,7 +24,7 @@ export async function POST(
       data: {
         name,
         userId,
-        createAt: new Date()
+        createdAt: new Date()
       }
     });
 
